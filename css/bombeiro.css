@@ -144,6 +144,14 @@ h1 {
     left: -14px;
     right: auto;
 }
+.timeline-footer{
+    padding:20px;
+   
+}
+.timeline-footer > a{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .timeline-badge.primary {
     background-color: #2e6da4 !important;
@@ -181,4 +189,16 @@ h1 {
 
 .timeline-body>p+p {
     margin-top: 5px;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #343a40;
+    border-top: 1px solid #343a40;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.panel-primary {
+    border-color: unset;
 }
